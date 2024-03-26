@@ -39,7 +39,7 @@
 
     <div class="sub-footer flex-row">
         <div class="links">
-            <p>&copy; 2023 Galaxy Blinds<span> | </span>
+            <p>Copyright &copy; 2023 Galaxy Blinds<span> | </span> Website Managed By MB-22 <span> | </span>
                 <a href="<?php echo get_site_url(); ?>/terms/">Terms of Use</a><span> | </span>
                 <a href="<?php echo get_site_url(); ?>/privacy/">Privacy and Cookie Policy</a>
             </p>
