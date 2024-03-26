@@ -62,7 +62,7 @@
                         <a href="<?php echo get_site_url(); ?>/perfect-fit-blinds/">Perfect Fit Blinds</a>
                         <a href="<?php echo get_site_url(); ?>/day-night-blinds/">Day & Night Blinds</a>
                         <a href="<?php echo get_site_url(); ?>/shutters/">Shutters</a>
-                        <a href="<?php echo get_site_url(); ?>/perfect-fit-shutter/">Perfect Fit Shutters</a>
+                        <a href="<?php echo get_site_url(); ?>/perfect-fit-shutters/">Perfect Fit Shutters</a>
                     </div>
                 </div>
                 <a href="<?php echo get_site_url(); ?>/awnings/">Awnings</a>
