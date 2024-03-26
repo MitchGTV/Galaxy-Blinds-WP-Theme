@@ -35,7 +35,7 @@ Template Name: Contact
             <p><strong>Galaxy Blinds</strong><br>65 Yarm Lane<br>Stockton-on-Tees<br>TS18 3DU</p>
 
             <p class="num">Business Hours:</p>
-            <p>Monday to Friday – 9am to 5pm<br> Monday to Friday – 10am to 2pm<br> Sunday – Closed</p>
+            <p>Monday to Friday – 9am to 5pm<br> Saturday - 10am to 2pm<br> Sunday – Closed</p>
         </div>
     </div>
 

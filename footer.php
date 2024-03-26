@@ -33,18 +33,22 @@
         </div>
 
         <div class="block yell">
-            <a href="https://www.yell.com/biz/galaxy-blinds-stockton-on-tees-7569534/" target="_blank"><img src="<?php bloginfo('template_directory'); ?>/img/yell@2x.png"></a>
+            <a href="https://g.page/r/CRGVIe6FZ5yXEAI/review" target="_blank"><img src="<?php bloginfo('template_directory'); ?>/img/google.jpg"></a>
         </div>
     </div>
 
     <div class="sub-footer flex-row">
         <div class="links">
-            <p>&copy; 2019 Galaxy Blinds<span> | </span>
-                <a href="<?php echo get_site_url(); ?>/terms/">Terms of Use</a><!--<span> | </span>
-                <a href="<?php echo get_site_url(); ?>/privacy/">Privacy</a>-->
+            <p>&copy; 2023 Galaxy Blinds<span> | </span>
+                <a href="<?php echo get_site_url(); ?>/terms/">Terms of Use</a><span> | </span>
+                <a href="<?php echo get_site_url(); ?>/privacy/">Privacy and Cookie Policy</a>
             </p>
         </div>
-        <a class="social" href="https://facebook.com/galaxy4blinds" target="_blank"><img src="<?php bloginfo('template_directory'); ?>/img/fb.svg"></a>
+        <div class="links">
+        <a style="padding-right: 10px;" class="social" href="https://facebook.com/galaxy4blinds" target="_blank"><img  src="<?php bloginfo('template_directory'); ?>/img/fb.svg"></a>
+        <a style="padding-right: 10px;" class="social" href="https://www.instagram.com/galaxy4blinds/" target="_blank"><img style="color: #FFF;" src="<?php bloginfo('template_directory'); ?>/img/instagram.png"></a>
+         <a class="social" href="https://www.tiktok.com/@galaxyblinds" target="_blank"><img style="fill: #FFF;" src="<?php bloginfo('template_directory'); ?>/img/tiktok.png"></a>
+         </div>
     </div>
 </footer>
 </div>
@@ -88,10 +92,7 @@
             }, 10);
         });
     });
-</script>
 
-<!--slider-->
-<script>
 $(document).ready(function(){
   $('.slider-wrap').slick({
     dots: false,

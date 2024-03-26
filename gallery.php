@@ -16,7 +16,7 @@ Template Name: Gallery
         </div>
         
         <div class="row">
-            <h2>Venetian Blinds</h2>
+            <h2>Venetian & Wood Blinds</h2>
             <div class="gall">
                 <?php echo do_shortcode('[nggallery id="6"/]'); ?>
             </div>
@@ -33,6 +33,20 @@ Template Name: Gallery
             <h2>Roller Blinds</h2>
             <div class="gall">
                 <?php echo do_shortcode('[nggallery id="1"/]'); ?>
+            </div>
+        </div>
+        
+        <div class="row">
+            <h2>Perfect Fit Blinds</h2>
+            <div class="gall">
+                <?php echo do_shortcode('[nggallery id="7"/]'); ?>
+            </div>
+        </div>
+        
+        <div class="row">
+            <h2>Day & Night Blinds</h2>
+            <div class="gall">
+                <?php echo do_shortcode('[nggallery id="8"/]'); ?>
             </div>
         </div>
         

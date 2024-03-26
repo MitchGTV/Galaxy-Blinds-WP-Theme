@@ -50,6 +50,25 @@ Template Name: Products
             }
             ?>
             
+             <?php 
+            if (is_page('perfect-fit-shutter')) {
+                echo do_shortcode('[nggallery id="11"/]');
+            }
+            ?>
+            
+            
+            <?php 
+            if (is_page('awnings')) {
+                echo do_shortcode('[nggallery id="9"/]');
+            }
+            ?>
+            
+            <?php 
+            if (is_page('motorised-blinds')) {
+                echo do_shortcode('[nggallery id="10"/]');
+            }
+            ?>
+            
             <?php 
             if (is_page('venetian-blinds')) {
                 echo do_shortcode('[nggallery id="6"/]');
@@ -77,6 +96,18 @@ Template Name: Products
             <?php 
             if (is_page('soft-furnishings')) {
                 echo do_shortcode('[nggallery id="4"/]');
+            }
+            ?>
+            
+            <?php 
+            if (is_page('perfect-fit-blinds')) {
+                echo do_shortcode('[nggallery id="7"/]');
+            }
+            ?>
+            
+            <?php 
+            if (is_page('day-night-blinds')) {
+                echo do_shortcode('[nggallery id="8"/]');
             }
             ?>
             
