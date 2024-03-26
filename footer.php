@@ -8,10 +8,9 @@
                 <li><a href="<?php echo get_site_url(); ?>/roman-blinds/">Roman Blinds</a></li>
                 <li><a href="<?php echo get_site_url(); ?>/roller-blinds/">Roller Blinds</a></li>
                 <li><a href="<?php echo get_site_url(); ?>/shutters/">Shutters</a></li>
-                <li><a href="<?php echo get_site_url(); ?>/soft-furnishings/">Soft Furnishings</a></li>
+                <li><a href="<?php echo get_site_url(); ?>/perfect-fit-shutters/">Perfect Fit Shutters</a></li>
             </ul>
         </div>
-
         <div class="block">
             <h3>Find us</h3>
             <ul>
@@ -21,7 +20,6 @@
                 <li>TS18 3DU</li>
             </ul>
         </div>
-
         <div class="block">
             <h3>Contact us</h3>
             <ul>
@@ -31,50 +29,44 @@
                 <li>Mobile: <a href="tel:07830341665">07830 341 665</a></li>
             </ul>
         </div>
-
         <div class="block yell">
             <a href="https://g.page/r/CRGVIe6FZ5yXEAI/review" target="_blank"><img src="<?php bloginfo('template_directory'); ?>/img/google.jpg"></a>
         </div>
     </div>
-
     <div class="sub-footer flex-row">
         <div class="links">
-            <p>Copyright &copy; 2023 Galaxy Blinds<span> | </span> Website Managed By MB-22 <span> | </span>
+            <p>Copyright &copy; 2023 Galaxy Blinds<span> | </span> Website managed by MB-22 <span> | </span>
                 <a href="<?php echo get_site_url(); ?>/terms/">Terms of Use</a><span> | </span>
                 <a href="<?php echo get_site_url(); ?>/privacy/">Privacy and Cookie Policy</a>
             </p>
         </div>
         <div class="links">
-        <a style="padding-right: 10px;" class="social" href="https://facebook.com/galaxy4blinds" target="_blank"><img  src="<?php bloginfo('template_directory'); ?>/img/fb.svg"></a>
-        <a style="padding-right: 10px;" class="social" href="https://www.instagram.com/galaxy4blinds/" target="_blank"><img style="color: #FFF;" src="<?php bloginfo('template_directory'); ?>/img/instagram.png"></a>
-         <a class="social" href="https://www.tiktok.com/@galaxyblinds" target="_blank"><img style="fill: #FFF;" src="<?php bloginfo('template_directory'); ?>/img/tiktok.png"></a>
-         </div>
+            <a style="padding-right: 10px;" class="social" href="https://facebook.com/galaxy4blinds" target="_blank"><img  src="<?php bloginfo('template_directory'); ?>/img/fb.svg"></a>
+            <a style="padding-right: 10px;" class="social" href="https://www.instagram.com/galaxy4blinds/" target="_blank"><img style="color: #FFF;" src="<?php bloginfo('template_directory'); ?>/img/instagram.png"></a>
+            <a class="social" href="https://www.tiktok.com/@galaxyblinds" target="_blank"><img style="fill: #FFF;" src="<?php bloginfo('template_directory'); ?>/img/tiktok.png"></a>
+        </div>
     </div>
 </footer>
 </div>
-
-
 <!--scripts-->
 <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
 <script type="text/javascript" src="<?php bloginfo('template_directory'); ?>/js/jquery.mmenu.all.js"></script>
 <script type="text/javascript" src="<?php bloginfo('template_directory'); ?>/js/slick.min.js"></script>
-
 <!--mobile menu -->
 <script type="text/javascript">
-    
     $(window).load(function() {
         $("body").addClass('all-loaded');
     });
-    
+
     $(document).ready(function () {
         var $menu = $("#my-menu").mmenu({
             "offCanvas": {
                 "position": "right"
             },
             "extensions": [
-            //"fx-menu-fade",
-            "fx-listitems-slide"
-         ]  
+                //"fx-menu-fade",
+                "fx-listitems-slide"
+            ]
         });
         var $icon = $("#my-icon");
         var API = $menu.data("mmenu");
@@ -93,22 +85,20 @@
         });
     });
 
-$(document).ready(function(){
-  $('.slider-wrap').slick({
-    dots: false,
-    arrows: false,
-    infinite: true,
-    autoplay: true,
-    autoplaySpeed: 4000,
-    fade: true,
-    speed: 1700,
-    pauseOnHover: false,
-    cssEase: 'linear'
-  });
-});    
+    $(document).ready(function(){
+        $('.slider-wrap').slick({
+            dots: false,
+            arrows: false,
+            infinite: true,
+            autoplay: true,
+            autoplaySpeed: 4000,
+            fade: true,
+            speed: 1700,
+            pauseOnHover: false,
+            cssEase: 'linear'
+        });
+    });
 </script>
-
 <?php wp_footer();?>
 </body>
-
 </html>
