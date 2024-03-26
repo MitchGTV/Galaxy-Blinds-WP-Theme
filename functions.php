@@ -1,16 +1,16 @@
 <?php
-	
+
 	// Add RSS links to <head> section
 	add_theme_support( 'automatic-feed-links' );
-	
+
 	// Load jQuery
     add_action('wp_enqueue_script','register_my_scripts');
     function register_my_scripts(){
         wp_deregister_script('jquery');
-        wp_register_script('jquery', ("http://ajax.googleapis.com/ajax/libs/jquery/1.4.1/jquery.min.js"), false);
+        wp_register_script('jquery', ("https://ajax.googleapis.com/ajax/libs/jquery/1.4.1/jquery.min.js"), false);
         wp_enqueue_script('jquery');
     }
-	
+
 	// Clean up the <head>
 	function removeHeadLinks() {
     	remove_action('wp_head', 'rsd_link');
@@ -18,7 +18,7 @@
     }
     add_action('init', 'removeHeadLinks');
     remove_action('wp_head', 'wp_generator');
-    
+
     if (function_exists('register_sidebar')) {
     	register_sidebar(array(
     		'name' => 'Sidebar Widgets',
@@ -42,9 +42,9 @@
         return $out;
     }
 
-    remove_action( 'wp_head', 'print_emoji_detection_script', 7 ); 
-    remove_action( 'admin_print_scripts', 'print_emoji_detection_script' ); 
-    remove_action( 'wp_print_styles', 'print_emoji_styles' ); 
+    remove_action( 'wp_head', 'print_emoji_detection_script', 7 );
+    remove_action( 'admin_print_scripts', 'print_emoji_detection_script' );
+    remove_action( 'wp_print_styles', 'print_emoji_styles' );
     remove_action( 'admin_print_styles', 'print_emoji_styles' );
 
-?>
+    
