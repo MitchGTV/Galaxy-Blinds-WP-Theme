@@ -5,7 +5,7 @@ Template Name: Contact
 
 <?php get_header(); ?>
 
-<section class="hero page-hero" style="background-image: url(<?php bloginfo('template_directory'); ?>/img/contact-hero.jpg);">
+<section class="hero page-hero" style="background-image: url(<?php echo esc_url( get_template_directory_uri()); ?>/img/contact-hero.jpg);">
     <div class="inner">
         <h1 class="fade-in">Contact us</h1>
         <p class="fade-in-2">Get in touch with Galaxy Blinds today</p>

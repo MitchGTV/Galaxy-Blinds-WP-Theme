@@ -30,7 +30,7 @@
             </ul>
         </div>
         <div class="block yell">
-            <a href="https://g.page/r/CRGVIe6FZ5yXEAI/review" target="_blank"><img src="<?php bloginfo('template_directory'); ?>/img/google.jpg"></a>
+            <a href="https://g.page/r/CRGVIe6FZ5yXEAI/review" target="_blank"><img src="<?php echo esc_url( get_template_directory_uri()); ?>/img/google.jpg"></a>
         </div>
     </div>
     <div class="sub-footer flex-row">
@@ -41,17 +41,17 @@
             </p>
         </div>
         <div class="links">
-            <a style="padding-right: 10px;" class="social" href="https://facebook.com/galaxy4blinds" target="_blank"><img  src="<?php bloginfo('template_directory'); ?>/img/fb.svg"></a>
-            <a style="padding-right: 10px;" class="social" href="https://www.instagram.com/galaxy4blinds/" target="_blank"><img style="color: #FFF;" src="<?php bloginfo('template_directory'); ?>/img/instagram.png"></a>
-            <a class="social" href="https://www.tiktok.com/@galaxyblinds" target="_blank"><img style="fill: #FFF;" src="<?php bloginfo('template_directory'); ?>/img/tiktok.png"></a>
+            <a style="padding-right: 10px;" class="social" href="https://facebook.com/galaxy4blinds" target="_blank"><img  src="<?php echo esc_url( get_template_directory_uri()); ?>/img/fb.svg"></a>
+            <a style="padding-right: 10px;" class="social" href="https://www.instagram.com/galaxy4blinds/" target="_blank"><img style="color: #FFF;" src="<?php echo esc_url( get_template_directory_uri()); ?>/img/instagram.png"></a>
+            <a class="social" href="https://www.tiktok.com/@galaxyblinds" target="_blank"><img style="fill: #FFF;" src="<?php echo esc_url( get_template_directory_uri()); ?>/img/tiktok.png"></a>
         </div>
     </div>
 </footer>
 </div>
 <!--scripts-->
 <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
-<script type="text/javascript" src="<?php bloginfo('template_directory'); ?>/js/jquery.mmenu.all.js"></script>
-<script type="text/javascript" src="<?php bloginfo('template_directory'); ?>/js/slick.min.js"></script>
+<script type="text/javascript" src="<?php echo esc_url( get_template_directory_uri()); ?>/js/jquery.mmenu.all.js"></script>
+<script type="text/javascript" src="<?php echo esc_url( get_template_directory_uri()); ?>/js/slick.min.js"></script>
 <!--mobile menu -->
 <script type="text/javascript">
     $(window).load(function() {

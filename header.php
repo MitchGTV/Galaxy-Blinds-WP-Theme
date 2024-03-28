@@ -20,11 +20,11 @@
     </script>
     <script type="text/javascript" src="https://cdn.rlets.com/capture_configs/a4d/2f3/0fc/b6f4c56adbfc12ad1c96996.js" async="async"></script>
     <!-- Stylesheets -->
-    <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory'); ?>/css/style.css">
-    <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory'); ?>/css/hamburgers.css" />
-    <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory'); ?>/css/jquery.mmenu.all.css" />
-    <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory'); ?>/css/slick-theme.css" />
-    <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory'); ?>/css/slick.css" />
+    <link rel="stylesheet" type="text/css" href="<?php echo esc_url( get_template_directory_uri()); ?>/css/style.css">
+    <link rel="stylesheet" type="text/css" href="<?php echo esc_url( get_template_directory_uri()); ?>/css/hamburgers.css" />
+    <link rel="stylesheet" type="text/css" href="<?php echo esc_url( get_template_directory_uri()); ?>/css/jquery.mmenu.all.css" />
+    <link rel="stylesheet" type="text/css" href="<?php echo esc_url( get_template_directory_uri()); ?>/css/slick-theme.css" />
+    <link rel="stylesheet" type="text/css" href="<?php echo esc_url( get_template_directory_uri()); ?>/css/slick.css" />
     
     <!-- Wordpress Header -->
     <?php wp_head();?>
@@ -49,8 +49,8 @@
     <div id="page-wrap" class="wrapper">
     <header>
         <div class="inner flex-row">
-            <a class="logo" href="<?php echo get_site_url(); ?>"><img src="<?php bloginfo('template_directory'); ?>/img/logo@2x.png" alt=""></a>
-            <a class="mob-logo" href="<?php echo get_site_url(); ?>"><img src="<?php bloginfo('template_directory'); ?>/img/mob-logo@2x.png" alt=""></a>
+            <a class="logo" href="<?php echo get_site_url(); ?>"><img src="<?php echo esc_url( get_template_directory_uri()); ?>/img/logo@2x.png" alt=""></a>
+            <a class="mob-logo" href="<?php echo get_site_url(); ?>"><img src="<?php echo esc_url( get_template_directory_uri()); ?>/img/mob-logo@2x.png" alt=""></a>
             
             <nav class="desktop-nav">
                 <a href="<?php echo get_site_url(); ?>">Home</a>

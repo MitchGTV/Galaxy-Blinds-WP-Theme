@@ -13,12 +13,12 @@ Template Name: Home
         <a class="btn fade-in-3" href="<?php echo get_site_url(); ?>/contact/">Contact us</a>
     </div>
     <div class="slider-wrap">
-    <div class="slide" style="background-image: url(<?php bloginfo('template_directory'); ?>/img/romans-roller.jpg);"></div>
-    <div class="slide" style="background-image: url(<?php bloginfo('template_directory'); ?>/img/hero.jpg);"></div>
-    <div class="slide" style="background-image: url(<?php bloginfo('template_directory'); ?>/img/rollers-hero.jpg);"></div>
-    <div class="slide" style="background-image: url(<?php bloginfo('template_directory'); ?>/img/vertical-hero.jpg);"></div>
-    <div class="slide" style="background-image: url(<?php bloginfo('template_directory'); ?>/img/curtains-hero.jpg);"></div>
-    <div class="slide" style="background-image: url(<?php bloginfo('template_directory'); ?>/img/shutters-hero.jpg);"></div>
+    <div class="slide" style="background-image: url(<?php echo esc_url( get_template_directory_uri()); ?>/img/romans-roller.jpg);"></div>
+    <div class="slide" style="background-image: url(<?php echo esc_url( get_template_directory_uri()); ?>/img/hero.jpg);"></div>
+    <div class="slide" style="background-image: url(<?php echo esc_url( get_template_directory_uri()); ?>/img/rollers-hero.jpg);"></div>
+    <div class="slide" style="background-image: url(<?php echo esc_url( get_template_directory_uri()); ?>/img/vertical-hero.jpg);"></div>
+    <div class="slide" style="background-image: url(<?php echo esc_url( get_template_directory_uri()); ?>/img/curtains-hero.jpg);"></div>
+    <div class="slide" style="background-image: url(<?php echo esc_url( get_template_directory_uri()); ?>/img/shutters-hero.jpg);"></div>
     </div>
 </section>
 
@@ -31,7 +31,7 @@ Template Name: Home
 
 <section class="home-blocks flex-row">
     <div class="block">
-        <a class="img" href="<?php echo get_site_url(); ?>/vertical-blinds/" style="background-image: url(<?php bloginfo('template_directory'); ?>/img/homeb1.jpg);"></a>
+        <a class="img" href="<?php echo get_site_url(); ?>/vertical-blinds/" style="background-image: url(<?php echo esc_url( get_template_directory_uri()); ?>/img/homeb1.jpg);"></a>
         <div class="content">
             <h3><?php the_field('vertical_blinds_heading'); ?></h3>
             <div><?php the_field('vertical_blinds_content'); ?></div>
@@ -40,7 +40,7 @@ Template Name: Home
     </div>
 
     <div class="block">
-        <a class="img" href="<?php echo get_site_url(); ?>/venetian-blinds/" style="background-image: url(<?php bloginfo('template_directory'); ?>/img/ven-blinds-000.jpg);"></a>
+        <a class="img" href="<?php echo get_site_url(); ?>/venetian-blinds/" style="background-image: url(<?php echo esc_url( get_template_directory_uri()); ?>/img/ven-blinds-000.jpg);"></a>
         <div class="content">
             <h3><?php the_field('venetian_blinds_heading'); ?></h3>
             <div><?php the_field('venetian_blinds_content'); ?></div>
@@ -49,7 +49,7 @@ Template Name: Home
     </div>
 
     <div class="block">
-        <a class="img" href="<?php echo get_site_url(); ?>/roller-blinds/" style="background-image: url(<?php bloginfo('template_directory'); ?>/img/homeb3.jpg);"></a>
+        <a class="img" href="<?php echo get_site_url(); ?>/roller-blinds/" style="background-image: url(<?php echo esc_url( get_template_directory_uri()); ?>/img/homeb3.jpg);"></a>
         <div class="content">
             <h3><?php the_field('roller_blinds_heading'); ?></h3>
             <div><?php the_field('roller_blinds_content'); ?></div>
@@ -58,7 +58,7 @@ Template Name: Home
     </div>
 
     <div class="block">
-        <a class="img" href="<?php echo get_site_url(); ?>/roman-blinds/" style="background-image: url(<?php bloginfo('template_directory'); ?>/img/homeb4.jpg);"></a>
+        <a class="img" href="<?php echo get_site_url(); ?>/roman-blinds/" style="background-image: url(<?php echo esc_url( get_template_directory_uri()); ?>/img/homeb4.jpg);"></a>
         <div class="content">
             <h3><?php the_field('roman_blinds_heading'); ?></h3>
             <div><?php the_field('roman_blinds_content'); ?></div>
@@ -67,7 +67,7 @@ Template Name: Home
     </div>
 
     <div class="block">
-        <a class="img" href="<?php echo get_site_url(); ?>/shutters/" style="background-image: url(<?php bloginfo('template_directory'); ?>/img/homeb5.jpg);"></a>
+        <a class="img" href="<?php echo get_site_url(); ?>/shutters/" style="background-image: url(<?php echo esc_url( get_template_directory_uri()); ?>/img/homeb5.jpg);"></a>
         <div class="content">
             <h3><?php the_field('shutters_heading'); ?></h3>
             <div><?php the_field('shutters_content'); ?></div>
@@ -76,7 +76,7 @@ Template Name: Home
     </div>
 
     <div class="block">
-        <a class="img" href="<?php echo get_site_url(); ?>/soft-furnishings/" style="background-image: url(<?php bloginfo('template_directory'); ?>/img/homeb6.jpg);"></a>
+        <a class="img" href="<?php echo get_site_url(); ?>/soft-furnishings/" style="background-image: url(<?php echo esc_url( get_template_directory_uri()); ?>/img/homeb6.jpg);"></a>
         <div class="content">
             <h3><?php the_field('furnishings_heading'); ?></h3>
             <div><?php the_field('furnishings_content'); ?></div>
