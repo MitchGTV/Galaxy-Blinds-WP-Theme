@@ -8,8 +8,8 @@ Template Name: Home
 
 <section class="hero">
     <div class="inner">
-        <h1 class="fade-in"><?php the_field('slider_heading'); ?></h1>
-        <p class="fade-in-2"><?php the_field('slider_subheading'); ?></p>
+        <h1 class="fade-in"><?php echo (the_field('slider_heading')); ?></h1>
+        <p class="fade-in-2"><?php echo (the_field('slider_subheading')); ?></p>
         <a class="btn fade-in-3" href="<?php echo get_site_url(); ?>/contact/">Contact us</a>
     </div>
     <div class="slider-wrap">

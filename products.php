@@ -8,15 +8,15 @@ Template Name: Products
 
 <section class="hero page-hero" style="background-image: url(<?php the_field('banner_image'); ?>);">
     <div class="inner">
-        <h1 class="fade-in"><?php the_field('banner_heading'); ?></h1>
-        <p class="fade-in-2"><?php the_field('banner_subheading'); ?></p>
+        <h1 class="fade-in"><?php echo (the_field('banner_heading'));?></h1>
+        <p class="fade-in-2"><?php echo (the_field('banner_subheading')); ?></p>
     </div>
 </section>
 
 <section class="intro">
     <div class="inner sec">
-        <h2><?php the_field('intro_heading'); ?></h2>
-        <div><?php the_field('intro_paragraph'); ?></div>
+        <h2><?php echo (the_field('intro_heading')); ?></h2>
+        <div><?php echo (the_field('intro_paragraph')); ?></div>
         <a class="btn" href="<?php echo get_site_url(); ?>/contact/">Contact us today</a>
     </div>
 </section>
@@ -25,16 +25,16 @@ Template Name: Products
     <div class="flex-row">
         <div class="img" style="background-image: url(<?php the_field('left_image'); ?>);"></div>
         <div class="content">
-            <h3><?php the_field('right_box_heading'); ?></h3>
-            <div><?php the_field('right_box_text'); ?></div>
+            <h3><?php echo (the_field('right_box_heading')); ?></h3>
+            <div><?php echo (the_field('right_box_text')); ?></div>
         </div>
     </div>
 
     <div class="flex-row row-reverse">
         <div class="img" style="background-image: url(<?php the_field('right_image'); ?>);"></div>
         <div class="content">
-            <h3><?php the_field('left_box_heading'); ?></h3>
-            <div><?php the_field('left_box_text'); ?></div>
+            <h3><?php echo (the_field('left_box_heading')); ?></h3>
+            <div><?php echo (the_field('left_box_text')); ?></div>
         </div>
     </div>
 </section>
