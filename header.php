@@ -8,7 +8,7 @@
     <!-- Title -->
 	<title><?php wp_title(' - ',TRUE,'right'); bloginfo('name'); ?></title>
     <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-D0PFJSSG9B"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-D0PFJSSG9B"></script>
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-SEQCYVVYQQ"></script>
     <script>
@@ -18,6 +18,7 @@
 
         gtag('config', 'G-SEQCYVVYQQ');
     </script>
+    <script type="text/javascript" src="https://cdn.rlets.com/capture_configs/a4d/2f3/0fc/b6f4c56adbfc12ad1c96996.js" async="async"></script>
     <!-- Stylesheets -->
     <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory'); ?>/css/style.css">
     <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory'); ?>/css/hamburgers.css" />
