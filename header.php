@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
     
     <!-- Title -->
-	<title><?php wp_title(' - ',TRUE,'right'); bloginfo('name'); ?></title>
+	<title><?php wp_title(' - ',TRUE,'right');?></title>
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-D0PFJSSG9B"></script>
     <!-- Google tag (gtag.js) -->
