@@ -7,8 +7,9 @@
                 <li><a href="<?php echo get_site_url(); ?>/venetian-blinds/">Venetian Blinds</a></li>
                 <li><a href="<?php echo get_site_url(); ?>/roman-blinds/">Roman Blinds</a></li>
                 <li><a href="<?php echo get_site_url(); ?>/roller-blinds/">Roller Blinds</a></li>
-                <li><a href="<?php echo get_site_url(); ?>/shutters/">Shutters</a></li>
+                <li><a href="<?php echo get_site_url(); ?>/shutters/">Fitted Shutters</a></li>
                 <li><a href="<?php echo get_site_url(); ?>/perfect-fit-shutters/">Perfect Fit Shutters</a></li>
+                <li><a href="https://ukbespokeshuttercompany.co.uk/">DIY Shutters</a></li>
             </ul>
         </div>
         <div class="block">

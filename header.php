@@ -1,14 +1,13 @@
 <!DOCTYPE html>
-<html lang="en">
-<head><meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<html <?php language_attributes(); ?>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
      <!-- Header -->
     
     <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
     
     <!-- Title -->
-	<title><?php wp_title(' - ',TRUE,'right');?></title>
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-D0PFJSSG9B"></script>
+	<title><?php add_theme_support( "title-tag" );?></title>
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-SEQCYVVYQQ"></script>
     <script>
@@ -18,6 +17,7 @@
 
         gtag('config', 'G-SEQCYVVYQQ');
     </script>
+    <!-- LocalIQ Tracking Script -->
     <script type="text/javascript" src="https://cdn.rlets.com/capture_configs/a4d/2f3/0fc/b6f4c56adbfc12ad1c96996.js" async="async"></script>
     <!-- Stylesheets -->
     <link rel="stylesheet" type="text/css" href="<?php echo esc_url( get_template_directory_uri()); ?>/css/style.css">
@@ -45,7 +45,7 @@
 	   $dir = $url[1] ? $url[1] : 'home';
     ?>
 
-<body id="<?php echo $dir ?>">
+<body id="<?php echo $dir ?>" <?php body_class(); ?>>
     <div id="page-wrap" class="wrapper">
     <header>
         <div class="inner flex-row">
