@@ -5,9 +5,10 @@
      <!-- Header -->
     
     <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="description" content="<?php echo get_the_excerpt(); ?>">
     
     <!-- Title -->
-	<title><?php add_theme_support( "title-tag" );?></title>
+	<title><?php wp_title(''); ?></title>
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-SEQCYVVYQQ"></script>
     <script>
