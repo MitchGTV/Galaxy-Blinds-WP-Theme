@@ -88,6 +88,7 @@
                     <li><a href="<?php echo get_site_url(); ?>">Home</a></li>
                     <li><a href="<?php echo get_site_url(); ?>">Blinds</a>
                         <ul>
+                            <li><a href="<?php echo get_site_url(); ?>/motorised-blinds/">Motorised Blinds</a></li>
                             <li><a href="<?php echo get_site_url(); ?>/vertical-blinds/">Vertical Blinds</a></li>
                             <li><a href="<?php echo get_site_url(); ?>/venetian-blinds/">Venetian & Wood Blinds</a></li>
                             <li><a href="<?php echo get_site_url(); ?>/roman-blinds/">Roman Blinds</a></li>
@@ -95,11 +96,14 @@
                             <li><a href="<?php echo get_site_url(); ?>/perfect-fit-blinds/">Perfect Fit Blinds</a></li>
                             <li><a href="<?php echo get_site_url(); ?>/day-night-blinds/">Day & Night Blinds</a></li>
                             <li><a href="<?php echo get_site_url(); ?>/shutters/">Shutters</a></li>
+                            <li><a href="<?php echo get_site_url(); ?>/perfect-fit-shutters/">Perfect Fit Shutters</a></li>
                         </ul>
                     </li>
+                    <li><a href="<?php echo get_site_url(); ?>/awnings/">Awnings</a></li>
                     <li><a href="<?php echo get_site_url(); ?>/soft-furnishings/">Soft Furnishings</a></li>
                     <li><a href="<?php echo get_site_url(); ?>/gallery/">Gallery</a></li>
                     <li><a href="<?php echo get_site_url(); ?>/tour/">360 Tour</a></li>
+                    <li><a href="<?php echo get_site_url(); ?>/blog/">Blog</a></li>
                     <li><a href="<?php echo get_site_url(); ?>/contact/">Contact</a></li>
                 </ul>
             </nav>
