@@ -73,6 +73,7 @@
                 <a href="<?php echo get_site_url(); ?>/soft-furnishings/">Soft Furnishings</a>
                 <a href="<?php echo get_site_url(); ?>/gallery/">Gallery</a>
                 <a href="<?php echo get_site_url(); ?>/tour/">360 Tour</a>
+                <a href="<?php echo get_site_url(); ?>/blog/">Blog</a>
                 <a href="<?php echo get_site_url(); ?>/contact/">Contact</a>
             </nav>
             
