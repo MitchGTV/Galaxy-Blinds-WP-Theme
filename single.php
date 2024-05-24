@@ -64,7 +64,7 @@
             while (have_posts()) : the_post(); ?>
                 <article id="post-<?php the_ID(); ?>" <?php post_class('content-container'); ?>>
                     <?php the_title('<h1 class="entry-title">', '</h1>'); ?>
-
+                    <p class="entry-meta">Updated on: <?php the_modified_date(); ?></p>
                     <div class="entry-content">
                         <?php the_content(); ?>
                     </div>
