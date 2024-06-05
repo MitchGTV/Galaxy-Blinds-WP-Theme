@@ -2,6 +2,10 @@
 	// Add RSS links to <head> section
 	add_theme_support( 'automatic-feed-links' );
 
+    //Yoast SEO
+    add_theme_support('title-tag');
+
+
 	// Load jQuery
     function register_my_scripts(){
         wp_register_script('jquery', ("https://ajax.googleapis.com/ajax/libs/jquery/1.4.1/jquery.min.js"), false);

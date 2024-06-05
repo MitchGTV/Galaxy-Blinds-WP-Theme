@@ -2,10 +2,11 @@
 <html <?php language_attributes(); ?>
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta charset="<?php bloginfo('charset'); ?>">
      <!-- Header -->
-    
     <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <meta name="description" content="<?php echo get_the_excerpt(); ?>">
+    <!-- Wordpress Header -->
+    <?php wp_head();?>
     
     <!-- Title -->
 	<title><?php wp_title(''); ?></title>
@@ -26,9 +27,6 @@
     <link rel="stylesheet" type="text/css" href="<?php echo esc_url( get_template_directory_uri()); ?>/css/jquery.mmenu.all.css" />
     <link rel="stylesheet" type="text/css" href="<?php echo esc_url( get_template_directory_uri()); ?>/css/slick-theme.css" />
     <link rel="stylesheet" type="text/css" href="<?php echo esc_url( get_template_directory_uri()); ?>/css/slick.css" />
-    
-    <!-- Wordpress Header -->
-    <?php wp_head();?>
     
     <!-- Load body -->
     <noscript>
