@@ -3,6 +3,28 @@ Template Name: Home
 */
 ?>
 
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "Organization",
+            "name": "Galaxy Blinds",
+            "url": "https://galaxy4blinds.co.uk/",
+            "logo": "<?php echo esc_url( get_template_directory_uri()); ?>/img/logo@2x.png",
+            "contactPoint": {
+                "@type": "ContactPoint",
+                "telephone": "01642 680 974",
+                "contactType": "customer service",
+                "contactOption": "TollFree",
+                "areaServed": "GB",
+                "availableLanguage": "en"
+            },
+            "sameAs": [
+                "https://facebook.com/galaxy4blinds",
+                "https://www.instagram.com/galaxy4blinds/",
+                "https://www.tiktok.com/@galaxyblinds"
+            ]
+        }
+    </script>
 
 <?php get_header(); ?>
 
