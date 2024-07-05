@@ -3,6 +3,8 @@ Template Name: Home
 */
 ?>
 
+<?php get_header(); ?>
+
     <script type="application/ld+json">
         {
             "@context": "https://schema.org",
@@ -25,8 +27,6 @@ Template Name: Home
             ]
         }
     </script>
-
-<?php get_header(); ?>
 
 <section class="hero">
     <div class="inner">
