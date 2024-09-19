@@ -28,28 +28,73 @@ Template Name: Home
         }
     </script>
 
-<section class="hero">
-    <div class="inner">
-        <h1 class="fade-in"><?php echo (the_field('slider_heading')); ?></h1>
-        <p class="fade-in-2"><?php echo (the_field('slider_subheading')); ?></p>
-        <a class="btn fade-in-3" href="<?php echo get_site_url(); ?>/contact/">Contact us</a>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-8">
+                <div class="carousel slide" id="carousel-360167">
+                    <ol class="carousel-indicators">
+                        <li data-slide-to="0" data-target="#carousel-360167" class="active">
+                        </li>
+                        <li data-slide-to="1" data-target="#carousel-360167">
+                        </li>
+                        <li data-slide-to="2" data-target="#carousel-360167">
+                        </li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img class="d-block w-100" alt="Carousel Bootstrap First" src="<?php echo esc_url( get_template_directory_uri()); ?>/img/romans-roller.jpg);" />
+                            <div class="carousel-caption">
+                                <h4>
+                                    Roman Blinds
+                                </h4>
+                                <p>
+                                    Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" alt="Carousel Bootstrap Second" src="https://www.layoutit.com/img/sports-q-c-1600-500-2.jpg" />
+                            <div class="carousel-caption">
+                                <h4>
+                                    Second Thumbnail label
+                                </h4>
+                                <p>
+                                    Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" alt="Carousel Bootstrap Third" src="https://www.layoutit.com/img/sports-q-c-1600-500-3.jpg" />
+                            <div class="carousel-caption">
+                                <h4>
+                                    Third Thumbnail label
+                                </h4>
+                                <p>
+                                    Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carousel-360167" data-slide="prev"><span class="carousel-control-prev-icon"></span> <span class="sr-only">Previous</span></a> <a class="carousel-control-next" href="#carousel-360167" data-slide="next"><span class="carousel-control-next-icon"></span> <span class="sr-only">Next</span></a>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="row">
+                    <div class="col-md-12">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-    <div class="slider-wrap">
-    <div class="slide" style="background-image: url(<?php echo esc_url( get_template_directory_uri()); ?>/img/romans-roller.jpg);"></div>
-    <div class="slide" style="background-image: url(<?php echo esc_url( get_template_directory_uri()); ?>/img/hero.jpg);"></div>
-    <div class="slide" style="background-image: url(<?php echo esc_url( get_template_directory_uri()); ?>/img/rollers-hero.jpg);"></div>
-    <div class="slide" style="background-image: url(<?php echo esc_url( get_template_directory_uri()); ?>/img/vertical-hero.jpg);"></div>
-    <div class="slide" style="background-image: url(<?php echo esc_url( get_template_directory_uri()); ?>/img/curtains-hero.jpg);"></div>
-    <div class="slide" style="background-image: url(<?php echo esc_url( get_template_directory_uri()); ?>/img/shutters-hero.jpg);"></div>
-    </div>
-</section>
 
-<section class="intro">
-    <div class="inner sec">
-        <h2><?php the_field('about_us_heading'); ?></h2>
-        <div><?php the_field('about_us_content'); ?></div>
-    </div>
-</section>
 
 <section class="home-blocks flex-row">
     <div class="block">
@@ -106,6 +151,13 @@ Template Name: Home
         </div>
     </div>
 </section>
+
+    <section class="intro">
+        <div class="inner sec">
+            <h2><?php the_field('about_us_heading'); ?></h2>
+            <div><?php the_field('about_us_content'); ?></div>
+        </div>
+    </section>
 
 <section class="home-cta">
     <div class="inner">
