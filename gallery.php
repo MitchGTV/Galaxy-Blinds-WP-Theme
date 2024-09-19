@@ -3,36 +3,8 @@ Template Name: Gallery
 */
 ?>
 
+
 <?php get_header(); ?>
-
-    <style>
-        .gallery-page {
-            width: 100%;
-            padding: 20px;
-        }
-
-        .row {
-            margin-bottom: 40px;
-        }
-
-        .gall {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 10px; /* Adjust space between images */
-        }
-
-        .gall img {
-            max-width: 100%;
-            height: auto;
-            flex: 1 0 21%; /* Adjust percentage to control image size and layout */
-            margin: 5px; /* Add margin for spacing between images */
-            box-sizing: border-box;
-        }
-
-        h2 {
-            margin-bottom: 20px;
-        }
-    </style>
 
 <section class="gallery-page">
     <div class="inner">

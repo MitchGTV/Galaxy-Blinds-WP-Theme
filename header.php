@@ -86,16 +86,10 @@
                         <a href="<?php echo get_site_url(); ?>/perfect-fit-shutters/">Perfect Fit Shutters</a>
                     </div>
                 </div>
-                <div class="dropdown">
-                    <div class="drop-btn">Shutters</div>
-                    <div class="dropdown-list">
-                        <a href="<?php echo get_site_url(); ?>/shutters/">Shutters</a>
-                        <a href="<?php echo get_site_url(); ?>/perfect-fit-shutters/">Perfect Fit Shutters</a>
-                    </div>
-                </div>
-                <a href="<?php echo get_site_url(); ?>/soft-furnishings/">Soft Furnishings</a>
                 <a href="<?php echo get_site_url(); ?>/awnings/">Awnings</a>
+                <a href="<?php echo get_site_url(); ?>/soft-furnishings/">Soft Furnishings</a>
                 <a href="<?php echo get_site_url(); ?>/gallery/">Gallery</a>
+                <a href="<?php echo get_site_url(); ?>/tour/">360 Tour</a>
                 <a href="<?php echo get_site_url(); ?>/blog/">Blog</a>
                 <a href="<?php echo get_site_url(); ?>/contact/">Contact</a>
             </nav>
